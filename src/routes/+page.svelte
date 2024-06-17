@@ -40,9 +40,9 @@
 </script>
 
 <div class="image-comparison-slider" on:mousemove={onMouseMove} on:mousedown={onMouseDown} on:mouseup={onMouseUp} on:mouseleave={onMouseLeave} on:touchstart={onMouseDown} on:touchend={onMouseUp} on:touchmove={onMouseMove} bind:this={sliderRef}>
-	<img src="https://www.chatpim.com/media/test/emma.jpg" alt="after" />
+	<img src="https://www.chatpim.com/media/test/3-2.jpg" alt="after" />
 	<div class="img-wrapper" bind:this={imageWrapperRef}>
-		<img src="https://www.chatpim.com/media/test/emma-.jpg" alt="before" />
+		<img src="https://www.chatpim.com/media/test/3-2-.jpg" alt="before" />
 	</div>
 	<span class="label label-before">Before</span>
 	<span class="label label-after">After</span>
