@@ -6,8 +6,8 @@
 	let sliderColor = 'white';
 	let labelLeft = 'After';
 	let labelRight = 'Before';
-	let imageLeftSrc = 'https://www.chatpim.com/media/test/2-3.jpg';
-	let imageRightSrc = 'https://www.chatpim.com/media/test/2-3-.jpg';
+	let imageLeftSrc = 'https://www.chatpim.com/media/example_image/temp_smovp_00003_.jpg';
+	let imageRightSrc = 'https://www.chatpim.com/media/example_image/original_xY29Bdw.jpg';
 </script>
 
 <main>
@@ -33,8 +33,8 @@
 	}
 
 	.container {
-		width: 512px;
-		height: 768px;
+		width: 1248px;
+		height: 832px;
 		overflow: hidden;
 		border-radius: 8px;
 	}
