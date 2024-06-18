@@ -1,7 +1,22 @@
 {
-	"name": "svelte-image-comparison-slider",
-	"version": "0.0.2",
-	"private": true,
+	"name": "svelte-before-after-image-slider",
+	"version": "0.0.1",
+	"author": "ivandrew05",
+	"license": "MIT",
+	"description": "A Svelte component to compare two images with a slider to reveal one over the other",
+	"keywords": [
+	  "svelte",
+	  "before after image slider",
+	  "image comparison slider",
+	  "image compare",
+	  "compare image",
+	  "twentytwenty"
+	],
+	"homepage": "https://github.com/ivandrew05/svelte-before-after-image-slider.git",
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/ivandrew05/svelte-before-after-image-slider.git"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",

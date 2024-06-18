@@ -1,7 +1,7 @@
-# svelte-image-comparison-slider
+# svelte-before-after-image-slider
 
-Svelte implementation for Coding Journey's [`Image Comparison Slider`](https://codepen.io/Coding_Journey/pen/QWdQraQ)
+Svelte implementation for Chris Pennington's [`Before/After Image Slider`](https://codepen.io/Coding-in-Public/pen/NWyjZwO)
 
-![Example Image](https://raw.githubusercontent.com/ivandrew05/svelte-image-comparison-slider/main/static/example1.jpg)
+![Example Image](https://raw.githubusercontent.com/ivandrew05/svelte-before-after-image-slider/main/static/example1.jpg)
 
-![screen recording example](https://github.com/ivandrew05/svelte-image-comparison-slider/blob/main/static/example1.gif)
+![screen recording example](https://github.com/ivandrew05/svelte-before-after-image-slider/blob/main/static/example1.gif)
