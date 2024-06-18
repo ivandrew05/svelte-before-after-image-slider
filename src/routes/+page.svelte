@@ -6,8 +6,8 @@
 	let sliderColor = 'white';
 	let labelLeft = 'After';
 	let labelRight = 'Before';
-	let imageLeftSrc = 'https://www.chatpim.com/media/example_image/2-3.jpg';
-	let imageRightSrc = 'https://www.chatpim.com/media/example_image/2-3-.jpg';
+	let imageLeftSrc = 'https://www.chatpim.com/media/test/2-3.jpg';
+	let imageRightSrc = 'https://www.chatpim.com/media/test/2-3-.jpg';
 </script>
 
 <main>
