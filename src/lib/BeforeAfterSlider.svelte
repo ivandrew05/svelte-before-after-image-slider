@@ -1,5 +1,5 @@
 <script>
-	let containerRef;
+	let position = '50%';
 	export let circleSize = '44px';
 	export let lineWidth = '3px';
 	export let arrowSize = '22px';
@@ -10,11 +10,11 @@
 	export let imageRightSrc = 'https://www.chatpim.com/media/test/2-3-.jpg';
 
 	function onInput(e) {
-		containerRef.style.setProperty('--position', `${e.target.value}%`);
+		position = `${e.target.value}%`;
 	}
 </script>
 
-<div class="container" bind:this={containerRef} style="--circle-size: {circleSize}; --line-width:{lineWidth}; --slider-color:{sliderColor}">
+<div class="container" style="--position:{position}; --circle-size: {circleSize}; --line-width:{lineWidth}; --slider-color:{sliderColor}">
 	<div class="image-container">
 		<img class="slider-image image-left" src={imageLeftSrc} alt="left" />
 		<img class="slider-image image-right" src={imageRightSrc} alt="right" />
@@ -38,7 +38,6 @@
 		height: 100%;
 		position: relative;
 		overflow: hidden;
-		--position: 50%;
 	}
 
 	.image-container {
@@ -67,7 +66,7 @@
 		position: absolute;
 		top: 1rem;
 		color: #fff;
-		background-color: rgba(0, 0, 0, 0.3);
+		background-color: rgba(0, 0, 0, 0.4);
 		border-radius: 0.25rem;
 		padding: 0.5rem 0.75rem;
 		font-size: 0.85rem;
